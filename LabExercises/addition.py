@@ -1,6 +1,6 @@
-N=int(input('enter a number of student in class:'))
-A=int(input('enter the number of apples:'))
-D=(A/N)
-R=(A%N)
-print('each student got:',D)
-print('the remaining apples:',R)
+#WAP that take three numbers and print their sum. Every number is given on a seperate line.
+a=int(input('enter a number:'))
+b=int(input('enter a second number'))
+c=int(input('enter a third number'))
+sum=a+b+c
+print('the sum is:',sum)
