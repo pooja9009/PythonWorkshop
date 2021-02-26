@@ -1,6 +1,6 @@
-#WAP that take three numbers and print their sum. Every number is given on a seperate line.
-a=int(input('enter a number:'))
-b=int(input('enter a second number'))
-c=int(input('enter a third number'))
-sum=a+b+c
-print('the sum is:',sum)
+dstring=input('how far did you travel today(in miles)?')
+tstring=input('how long did it take you (in hours)?')
+dfloat=float(dstring)
+tfloat=float(tstring)
+s=dfloat/tfloat
+print('your speed was'+str(s)+'miles per hour')
